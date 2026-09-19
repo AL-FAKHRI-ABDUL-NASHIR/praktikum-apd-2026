@@ -14,7 +14,7 @@ rata_rata = total_bayar / len(belanjaan)
 nim = 9
 bolean = nim < rata_rata
 
-total_bayar_dollar = 0.000056 * total_bayar
+total_bayar_dollar_amerika = 0.000056 * total_bayar
 total_bayar_yuan = 0.00038 * total_bayar
 
 print(barang_1)
@@ -29,5 +29,5 @@ print(total_bayar)
 print(rata_rata)
 print(nim)
 print(bolean)
-print(total_bayar_dollar)
+print(total_bayar_dollar_amerika)
 print(total_bayar_yuan)
