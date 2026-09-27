@@ -23,6 +23,7 @@ if umur >= 13:
    kembalian = uang_bayar - total_bayar
 
    if uang_bayar >= total_bayar:
+    print("Struk Pembelian Anda")
     print("Nama: ", nama)
     print("Umur: ", umur)
     print("Jenis Tiket: ", jenis_tiket)
