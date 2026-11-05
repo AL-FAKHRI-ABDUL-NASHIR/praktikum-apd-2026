@@ -85,6 +85,7 @@ def opsi_keranjang_belanja(menu_utama_pengguna):
         opsi_keranjang_belanja(menu_utama_pengguna)
 
 def opsi_bayar_langsung(menu_utama_pengguna):
+    test_beli_keranjang_semua = False
     while True:
         global jumlah_pesanan
         try:
