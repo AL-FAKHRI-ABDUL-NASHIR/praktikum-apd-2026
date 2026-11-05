@@ -12,8 +12,9 @@ def perhitungan_total_harga(jumlah_pesanan):
     return total_harga
 def proses_pembayaran_langsung(menu_utama_pengguna, jumlah_pesanan):
     os.system("cls")
-    global uang_bayar, test_beli_keranjang_satu
+    global uang_bayar, test_beli_keranjang_satu, test_beli_keranjang_semua
     test_beli_keranjang_satu = False
+    test_beli_keranjang_semua = False
     while True:
         try:
             print("=" * 40)
